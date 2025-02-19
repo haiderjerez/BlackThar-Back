@@ -101,6 +101,7 @@ Agregar el token en Authorization en cada request:
 Authorization: Bearer TU_TOKEN_AQUI
 ```
 ##📜 Estructura del Proyecto
+```pgsql
 BlackThar/
 │── src/
 │   ├── main/
@@ -134,7 +135,7 @@ BlackThar/
 │   │   │   ├── application-dev.properties  # Config para entorno de desarrollo
 │   │   │   ├── application-prod.properties # Config para entorno de producción
 │── pom.xml
-
+```
 ##🛡 Seguridad y CORS
 Spring Security + JWT protege las rutas sensibles.
 CORS habilitado en SecurityConfig.java para permitir llamadas desde el frontend.
