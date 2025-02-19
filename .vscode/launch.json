@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BlackTharApplication<BlackThar>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.Pro.BlackThar.BlackTharApplication",
+            "projectName": "BlackThar",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
